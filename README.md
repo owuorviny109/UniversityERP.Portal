@@ -1,5 +1,7 @@
 # University Exams and Academic ERP Module
 
+> **[View Detailed Task List](documentation/task.md)**
+
 A structured learning and demonstration project built using ASP.NET Core MVC to model a university academic portal. The focus is on exams, grading, GPA/CGPA computation, academic structure, and configurable rules as implemented in enterprise ERP systems for higher education.
 
 This project reflects typical workflows found in university ERP solutions and is intended to develop practical experience in C#, .NET, SQL Server, Entity Framework Core, and backend-oriented business domain design.
@@ -66,27 +68,27 @@ Key domain capabilities:
 
 ## Phase Roadmap
 
-Phase 1 — Academic Structure
+Phase 1 â€” Academic Structure
 - Configure Entity Framework Core with SQL Server.
 - Implement School, Program, Course, AcademicYear, and Semester models.
 - Build administrative CRUD interfaces for academic setup.
 
-Phase 2 — Exams and Grading
+Phase 2 â€” Exams and Grading
 - Implement ExamType, Assessment, GradingScale, and GradingBand models.
 - Implement grade calculation driven by configuration.
 - Display results and GPA/CGPA for students.
 
-Phase 3 — Progression and Rules
+Phase 3 â€” Progression and Rules
 - Introduce ProgramRule for progression criteria.
 - Evaluate per-student progression state.
 - Provide academic reports and summaries.
 
-Phase 4 — Portals and Authentication
+Phase 4 â€” Portals and Authentication
 - Add ASP.NET Identity roles (Student, Lecturer, Admin).
 - Student portal for results and transcripts.
 - Admin portal for configurations, approvals, and publication.
 
-Phase 5 — Deployment and Operations
+Phase 5 â€” Deployment and Operations
 - Implement logging and audit trails.
 - Deploy to Azure or AWS.
 - Document deployment steps and operational considerations.
